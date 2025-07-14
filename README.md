@@ -1,2 +1,1 @@
-# sushma_sharma
-About School
+school training
