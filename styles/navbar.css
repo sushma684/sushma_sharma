@@ -35,7 +35,6 @@
 }
 .nav-menu{
     display:flex;
-    
     list-style: none;
     gap:2rem;
 }   
@@ -53,5 +52,6 @@
     background-color: bisque;
     display:flex;
     justify-content: space-around;
+   
 }
 

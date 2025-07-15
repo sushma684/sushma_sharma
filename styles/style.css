@@ -48,9 +48,119 @@
 .nav-link:hover{
     color:rgb(92, 152, 248);
 }
+/* content ABOUT */
 .about{
-    background-color: bisque;
-    display:flex;
-    justify-content: space-around;
+    background-color:bisque;
+   font-weight:600;
 }
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+  
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3rem;
+    position: relative;
+    font-style: oblique;
+}
+.section-title::after {
+    content: '';
+    position:static;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(50%);
+    width: 80px;
+    height: 4px;
+    background: red;
+    border-radius: 2px;
+    border-color:aqua;
+}
+
+
+
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 1 rem;
+   background-color: beige;
+   display: grid;
+   gap: 4rem;
+   margin-top:2rem;
+
+    border-radius: 15px;
+    box-shadow: 0 5px 15px grey;
+    transition: transform 0.3 ease;
+    border: 2px solid black;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+.stat-item h3 {
+    font-size: 2rem;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.stat-item p {
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.grid-item {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(207, 30, 30, 0.551);
+    transition: all 0.3s ease;
+    border:2px solid black;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 5px transparent;
+    box-decoration-break: slice;
+    border-color: blanchedalmond;
+     border:2px solid black;
+
+}
+
+.grid-item i {
+    font-size: 2.5rem;
+    color: var(--secondary-blue);
+    margin-bottom: 1rem;
+}
+
+.grid-item h4 {
+    color: var(--primary-blue);
+    font-weight: 600;
+}
+
 
