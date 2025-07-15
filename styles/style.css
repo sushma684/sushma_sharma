@@ -48,4 +48,12 @@
 .nav-link:hover{
     color:rgb(92, 152, 248);
 }
+.about{
+    background-color: bisque;
+    display:flex;
+    justify-content: space-around;
+}
+.stats{
+    
+}
 
